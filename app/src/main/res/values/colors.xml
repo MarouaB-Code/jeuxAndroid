@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#F2B7DC</color>
+    <color name="jaune">#FFEB3B</color>
+    <color name="colorPurple">#332FA2</color>
+
+    <color name="violet">#9C27B0</color>
+    <color name="bleusi">#00BCD4</color>
+    <color name="vertc">#CDDC39</color>
+    <color name="ss">#3BFFD1</color>
+
+    <color name="rouge">#EC2048</color>
+    <color name="veet">#15D53E</color>
+    <color name="rosee">#E91E63</color>
+    <color name="grise">#94AAD6</color>
+    <color name="orange">#FF9800</color>
+
+
+    <color name="un">#94A212</color>
+    <color name="deux">#162474</color>
+    <color name="trois">#278A80</color>
+    <color name="quatre">#9A3BFF65</color>
+
+    <color name="cinq">#C884D6</color>
+    <color name="six">#EEA3D0</color>
+    <color name="sept">#B68B4A</color>
+    <color name="huit">#94AAD6</color>
+    <color name="neuve">#FF9800</color>
+
+
+    <color name="white">#fff</color>
+    <color name="gris_light">#e1dfe1</color>
+    <color name="bleu">#1e90ff</color>
+
+
+    <array name="demo_colors">
+        <item>@color/gris_light</item>
+        <item>@color/bleu</item>
+        <item>@color/colorAccent</item>
+        <item>@color/white</item>
+        <item>@color/colorPrimaryDark</item>
+        <item>@color/colorPrimary</item>
+
+        <item>@color/violet</item>
+        <item>@color/bleusi</item>
+        <item>@color/vertc</item>
+        <item>@color/ss</item>
+
+        <item>@color/orange</item>
+        <item>@color/rosee</item>
+        <item>@color/rouge</item>
+        <item>@color/veet</item>
+        <item>@color/grise</item>
+
+
+        <item>@color/un</item>
+        <item>@color/deux</item>
+        <item>@color/trois</item>
+        <item>@color/quatre</item>
+
+        <item>@color/cinq</item>
+        <item>@color/six</item>
+        <item>@color/sept</item>
+        <item>@color/huit</item>
+        <item>@color/neuve</item>
+
+
+    </array>
+</resources>

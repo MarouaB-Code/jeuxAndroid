@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ltMain"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:persistentDrawingCache="all"
+    android:background="@color/colorAccent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <ImageView
+                android:id="@+id/backImg"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/background" />
+
+            <ImageButton
+                android:id="@+id/helpBtn"
+                android:layout_width="50.0dip"
+                android:layout_height="50.0dip"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="10.0dip"
+                android:background="@null"
+                android:src="@drawable/selector_helps" />
+
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/ltAbout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:alwaysDrawnWithCache="true"
+                android:animationCache="true"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="550.0dip"
+                    android:layout_height="360.0dip"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/apropos" />
+
+                <Button
+                    android:id="@+id/btnAboutBack"
+                    android:layout_width="70.0dip"
+                    android:layout_height="50.0dip"
+                    android:layout_marginTop="-60dp"
+                    android:layout_alignBottom="@+id/imageView2"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/back_selector" />
+
+
+
+
+            </RelativeLayout>
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/ltSettings"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:alwaysDrawnWithCache="true"
+                android:animationCache="true"
+                android:layout_marginTop="100dp"
+                android:persistentDrawingCache="all"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/imgSettings"
+                    android:layout_width="590.0dip"
+                    android:layout_height="360.0dip"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/parametre" />
+
+                <LinearLayout
+                    android:id="@+id/ll1"
+                    android:layout_width="150.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_alignLeft="@+id/imgSettings"
+                    android:layout_alignTop="@+id/imgSettings"
+                    android:layout_marginBottom="95.0dip"
+                    android:layout_marginLeft="30.0dip"
+                    android:layout_marginRight="100.0dip"
+                    android:layout_marginTop="45.0dip"
+                    android:orientation="vertical" >
+
+                </LinearLayout>
+
+
+
+
+
+            </RelativeLayout>
+
+
+
+            <Button
+                android:id="@+id/apprendre"
+                android:layout_width="190dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="450dp"
+                android:background="@drawable/play_selector" />
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>
